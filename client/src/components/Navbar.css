@@ -1,0 +1,23 @@
+.navbar-toggler-icon {
+  background-color: transparent; /* Remove background color of the default icon */
+  border: none; /* Remove border from the default icon */
+  width: 30px; /* Width of the custom icon */
+  height: 2px; /* Height of the custom icon */
+  position: relative;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.navbar{
+  bottom: 40px;
+  margin-bottom: 50px;
+  position: relative;
+  box-shadow: 0px 4px 6px rgba(39, 33, 33, 0.5);
+  border-bottom: 3px solid #007bff;
+  justify-content: space-between; /* Space content horizontally */
+  align-items: center;
+}
+.navbar-nav a:hover {
+  color: #000000; /* Color change on hover */
+  border-color: #000000; 
+  border-radius: 50px;
+  border-width: 20px;
+}
